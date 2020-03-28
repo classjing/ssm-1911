@@ -35,6 +35,12 @@ public class UserController {
 		return "redirect:/user/list.do";
 	}
 	
+	@RequestMapping("/update")
+	public String update(User user) {
+		
+		return "redirect:/user/list.do";
+	}
+	
 	@RequestMapping("/delete")
 	public String delete(Integer id) {
 		

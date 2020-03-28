@@ -7,8 +7,16 @@ public class User {
 	private Integer age;
 	private String emial;
 	
+	private String phone;
 	
 	
+	
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
 	public String getEmial() {
 		return emial;
 	}
