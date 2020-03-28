@@ -5,7 +5,16 @@ public class User {
 	private String name;
 	private String password;
 	private Integer age;
+	private String emial;
 	
+	
+	
+	public String getEmial() {
+		return emial;
+	}
+	public void setEmial(String emial) {
+		this.emial = emial;
+	}
 	//确定属性 ：去掉get  剩余部分首字母变小写  ：id
 	public Integer getId() {
 		return id;

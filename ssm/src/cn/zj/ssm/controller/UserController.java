@@ -28,6 +28,13 @@ public class UserController {
 		return "userList";
 	}
 	
+	
+	@RequestMapping("/insert")
+	public String insert(User user) {
+		
+		return "redirect:/user/list.do";
+	}
+	
 	@RequestMapping("/delete")
 	public String delete(Integer id) {
 		
